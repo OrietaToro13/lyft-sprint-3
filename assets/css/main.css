@@ -9,9 +9,19 @@ Colors:
 body{
 	margin: 0;
 }
-ul{
+.logo{
+	width: 5%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 2%
+}
+.cabeza{
 	list-style: none;
-	float: right;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: right;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -27,4 +37,9 @@ ul li a{
 	text-align: center;
 	padding: 26px;
 	text-decoration: none;
+}
+.imagen{
+	width: 100%;
+
+	
 }
