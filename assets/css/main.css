@@ -6,53 +6,170 @@ Colors:
 #75726C;
 #EDE9E2
 */
+*{
+    font-family: 'Raleway', sans-serif;
+}
 body{
-	margin: 0;
-	padding: 0;
-	background-color: #00B2A9;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
-.logo{
-	width: 5%;
-	float: left;
-	margin-left: 8%;
-	margin-top: 2%
+/* desarrollo de  header*/
+nav{
+    position: fixed;
+    background-color: #E54E79;
+    height: 100px;
+    width: 100%;
+    text-align: right;  
 }
-.cabeza{
-	list-style: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	text-align: right;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #E54E79;
-	font-family: 'Raleway', sans-serif; 
+.nav a:hover{
+    background-color:#E54E79;
 }
-ul li{
-	display: inline-block;
+nav ul{
+    /*text-align: right;*/
+    margin-right: 150px;
 }
-ul li a{
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 28px;
-	text-decoration: none;
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 30px;
 }
-li a: hover{
-	background-color: #E56385;
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-family: arial;
 }
-.imagen {
-	height: 99vh;
-	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
-	background-attachment: fixed;
-	background-size: cover;
+img{
+    float: left;
+    height: 50px;
+    width: auto;
+    margin-left: 250px;
+    margin-top: 20px;
 }
-#h1{
-    color: #00B2A9;
-    margin-top: 0;
-    margin-left: 46px;
-    font-weight: 200px;
+/* Desarrollo body */
+.inicio{
+    background-size: 100%;
+    height: 100px;
+}
+.fondo{
+    background-image: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
+    background-size: 100%;
+    height: 709px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#rect{
+    width: 500px;
+    height: 360px;
+    background-color: white;
+    float: right;
+    margin-top: 200px;
+    background-color: #f0f0f0;
+}
+#text{
+    
+    font-size: 50px;
+    float: right;
+    color: black;
+    background-size: 0;
+}
+a:hover {
+    background-color: #ff54ff;
+    height: 40px;
+}
+#text1{
+    font-size: 25px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 65px;
+    color: #64cca9;
+}
+#text2{
+    font-size: 17px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding: 0;
+    color: #a3a3a3;
+}
+#box1{
+    font-size: 17px;
+    margin-left: 31px;
+    margin-top: 0px;
+    border-color: none;
+    width: 50%;
+}
+input{
+    color: #fa78ac;
+}
+#boton{
+    font-size: 17px;
+    margin-left: 31px;
+    margin-top: 0px;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #d68387;
+    
+    border-radius: 60px 60px 60px 60px;
+    -moz-border-radius: 60px 60px 60px 60px;
+    -webkit-border-radius: 60px 60px 60px 60px;
+    border: 0px solid #000000;
+    
+}
+.text3 p{
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
     font-size: 15px;
+    line-height: 4px;
+}
+/*
+input{
+        font-size: 17px;
+    margin-left: 31px;
+    margin-top: 0px;
+    border-color: none;
+    width: 50%;
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus{ outline:none; }
+*/
+/* Desarrollo de juego */
+.contenedor1{
+    margin-right: 0;
+    margin-top: 531px;
+    height: 700px;
+    width: 100%;
+    background-color: #39debd;
+}
+.titulo{
+    margin-top: 60px;
+    height: 100px;
+    width: 100%;    
+    float: right;
+    background-color: #f0f0f0;
+}
+#tituloTexto h1{
+    text-align: center;
+    color: #707070;
+    margin-top: 35px;
+}
+.contenedorCars{
+    height: 250px;
+    width: 700px;
+    background-color: #707070;
+    margin-left: 300px;
+    margin-top: 180px;
+}
+.auto1 .auto2 {
 }
