@@ -8,6 +8,8 @@ Colors:
 */
 body{
 	margin: 0;
+	padding: 0;
+	background-color: #00B2A9;
 }
 .logo{
 	width: 5%;
@@ -38,10 +40,19 @@ ul li a{
 	padding: 28px;
 	text-decoration: none;
 }
+li a: hover{
+	background-color: #E56385;
+}
 .imagen {
 	height: 99vh;
 	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	
+}
+#h1{
+    color: #00B2A9;
+    margin-top: 0;
+    margin-left: 46px;
+    font-weight: 200px;
+    font-size: 15px;
 }
